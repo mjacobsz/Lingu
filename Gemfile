@@ -17,6 +17,10 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'ruby-debug'
 # gem 'ruby-debug19'
 
+# To test their functionality, include the next gems
+gem 'delayed_job'
+gem 'rack-oauth2-server', :git => "https://github.com/flowtown/rack-oauth2-server.git" 
+
 # Bundle the extra gems:
 # gem 'bj'
 # gem 'nokogiri'
